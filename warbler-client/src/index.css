@@ -13,13 +13,16 @@ body {
   color: white;
 }
 
+/* hovering */
 .navbar a:hover {
   color: white;
   text-decoration: underline;
   cursor: pointer;
 }
 
+/* direct descendant selector any images*/
 .navbar-brand > img {
+  /* add some width and height to it inline-block */
   display: inline-block;
   width: 20px;
   margin-bottom: 2px;
@@ -27,11 +30,14 @@ body {
   border-radius: 2px;
 }
 
+/* padding */
 ul.nav.navbar-nav li {
   margin: 0 0.5rem;
 }
 
+/* wrapper class in our App.js, also anything with the class of navbar */
 .onboarding > .navbar {
   background-image: url("./images/nav-bg.png");
+  /* make sure it covers the entire navbar */
   background-size: 100% 100%;
 }
