@@ -10,10 +10,12 @@ body {
 
 .navbar a {
   font-weight: bold;
+  /* anchor tags any white as well */
   color: white;
 }
 
-/* hovering */
+/* hovering chrome devtools then click on computed tab a:hover overriding li:hover
+you can also click on styles then :hov to see hover states */
 .navbar a:hover {
   color: white;
   text-decoration: underline;
